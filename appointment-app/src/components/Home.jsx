@@ -10,13 +10,13 @@ const Home = () => {
       />
       <div className="absolute inset-0 bg-black bg-opacity-40"></div>
       <div className="relative z-10 flex flex-col items-center justify-center h-full text-white text-center">
-        <h1 className="text-6xl font-bold mb-4">Appointment Booked</h1>
-        <p className="text-xl mb-8">
-          Your appointment is confirmed for October 15th at 2:00 PM
+        <h1 className="text-6xl font-bold mb-4">Appointments</h1>
+        {/* <p className="text-xl mb-8">
+         
         </p>
         <button className="bg-indigo-600 hover:bg-indigo-700 text-white font-semibold py-2 px-6 rounded-md transition duration-300 ease-in-out">
           View Details
-        </button>
+        </button> */}
       </div>
     </div>
   );
